@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Mixpanel
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        IntialiseMixpanel()
         return true
+    }
+    
+    func IntialiseMixpanel() {
+        
+        //Add your Mixpanel Token
+        Mixpanel.initialize(token: "Your_Project_Token")
+        //Event will be logged every 10 sec
+        Mixpanel.mainInstance().flushInterval = 10
+        
+        // Identify
+        var mixpanelID = UserDefaults.standard.object(forKey: "MixpanelID")
+        if (mixpanelID == nil) {
+            mixpanelID = UIDevice.current.identifierForVendor?.uuidString
+            UserDefaults.standard.set(mixpanelID, forKey: "MixpanelID")
+            }
+        Mixpanel.mainInstance().identify(distinctId: mixpanelID as! String)
+        // Register Super Properties
+        Mixpanel.mainInstance().registerSuperProperties(["App Version" : "1.0"])
+        //Track Event
+        Mixpanel.mainInstance().track(event: "App Launched")
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

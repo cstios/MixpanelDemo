@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3334791D2720CFBA3C4A647F /* Pods_MixpanelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC797FA5AA9B5FA51190F996 /* Pods_MixpanelDemo.framework */; };
+		63FA334169AAE45BC0C00E82 /* Pods_MixpanelDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F22D49909ABB913A2DB2BF0 /* Pods_MixpanelDemoUITests.framework */; };
 		6B7193CB1E444F6800BFE4C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7193CA1E444F6800BFE4C3 /* AppDelegate.swift */; };
 		6B7193CD1E444F6800BFE4C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7193CC1E444F6800BFE4C3 /* ViewController.swift */; };
 		6B7193D01E444F6900BFE4C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7193CE1E444F6900BFE4C3 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		6B7193D51E444F6900BFE4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7193D31E444F6900BFE4C3 /* LaunchScreen.storyboard */; };
 		6B7193E01E444F6900BFE4C3 /* MixpanelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7193DF1E444F6900BFE4C3 /* MixpanelDemoTests.swift */; };
 		6B7193EB1E444F6900BFE4C3 /* MixpanelDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7193EA1E444F6900BFE4C3 /* MixpanelDemoUITests.swift */; };
+		7AAA125C574EC2BB756A4A4A /* Pods_MixpanelDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1A59B755884877C759FDA4 /* Pods_MixpanelDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CF7AEF1A38CC4EF681911CE /* Pods-MixpanelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixpanelDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixpanelDemo/Pods-MixpanelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		168B6A85E1BD61BDA54253FB /* Pods-MixpanelDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixpanelDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixpanelDemoTests/Pods-MixpanelDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C7CA9F599E488117C7F5141 /* Pods-MixpanelDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixpanelDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixpanelDemoTests/Pods-MixpanelDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F22D49909ABB913A2DB2BF0 /* Pods_MixpanelDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixpanelDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7193C71E444F6700BFE4C3 /* MixpanelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixpanelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7193CA1E444F6800BFE4C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B7193CC1E444F6800BFE4C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		6B7193E61E444F6900BFE4C3 /* MixpanelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixpanelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7193EA1E444F6900BFE4C3 /* MixpanelDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixpanelDemoUITests.swift; sourceTree = "<group>"; };
 		6B7193EC1E444F6900BFE4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1A59B755884877C759FDA4 /* Pods_MixpanelDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixpanelDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E86DCA35F8B7F0B7769E156 /* Pods-MixpanelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixpanelDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixpanelDemo/Pods-MixpanelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AC797FA5AA9B5FA51190F996 /* Pods_MixpanelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixpanelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E97848D49A92AEE7F78883 /* Pods-MixpanelDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixpanelDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixpanelDemoUITests/Pods-MixpanelDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7EAFF5C4D4F9FCF80BA757E /* Pods-MixpanelDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixpanelDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixpanelDemoUITests/Pods-MixpanelDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3334791D2720CFBA3C4A647F /* Pods_MixpanelDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AAA125C574EC2BB756A4A4A /* Pods_MixpanelDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FA334169AAE45BC0C00E82 /* Pods_MixpanelDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56BCE9AF40E23861BA1DB0E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E86DCA35F8B7F0B7769E156 /* Pods-MixpanelDemo.debug.xcconfig */,
+				0CF7AEF1A38CC4EF681911CE /* Pods-MixpanelDemo.release.xcconfig */,
+				5C7CA9F599E488117C7F5141 /* Pods-MixpanelDemoTests.debug.xcconfig */,
+				168B6A85E1BD61BDA54253FB /* Pods-MixpanelDemoTests.release.xcconfig */,
+				C7EAFF5C4D4F9FCF80BA757E /* Pods-MixpanelDemoUITests.debug.xcconfig */,
+				C3E97848D49A92AEE7F78883 /* Pods-MixpanelDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6B7193BE1E444F6700BFE4C3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				6B7193DE1E444F6900BFE4C3 /* MixpanelDemoTests */,
 				6B7193E91E444F6900BFE4C3 /* MixpanelDemoUITests */,
 				6B7193C81E444F6700BFE4C3 /* Products */,
+				56BCE9AF40E23861BA1DB0E6 /* Pods */,
+				900087AB6D461651889DB672 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = MixpanelDemoUITests;
 			sourceTree = "<group>";
 		};
+		900087AB6D461651889DB672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC797FA5AA9B5FA51190F996 /* Pods_MixpanelDemo.framework */,
+				8C1A59B755884877C759FDA4 /* Pods_MixpanelDemoTests.framework */,
+				5F22D49909ABB913A2DB2BF0 /* Pods_MixpanelDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B7193EF1E444F6900BFE4C3 /* Build configuration list for PBXNativeTarget "MixpanelDemo" */;
 			buildPhases = (
+				E9EAF6BC7DE0A59C01DF75AE /* [CP] Check Pods Manifest.lock */,
 				6B7193C31E444F6700BFE4C3 /* Sources */,
 				6B7193C41E444F6700BFE4C3 /* Frameworks */,
 				6B7193C51E444F6700BFE4C3 /* Resources */,
+				222DB4A55C8B340D16B82C60 /* [CP] Embed Pods Frameworks */,
+				1311FA87D106F25834888ABE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B7193F21E444F6900BFE4C3 /* Build configuration list for PBXNativeTarget "MixpanelDemoTests" */;
 			buildPhases = (
+				1B8E7545F0D4A5A878815194 /* [CP] Check Pods Manifest.lock */,
 				6B7193D71E444F6900BFE4C3 /* Sources */,
 				6B7193D81E444F6900BFE4C3 /* Frameworks */,
 				6B7193D91E444F6900BFE4C3 /* Resources */,
+				AFCCC2687D5269515E3F5BB5 /* [CP] Embed Pods Frameworks */,
+				3EF4EBA62DA920976B7061C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B7193F51E444F6900BFE4C3 /* Build configuration list for PBXNativeTarget "MixpanelDemoUITests" */;
 			buildPhases = (
+				AAFB0F096ADE420C314A27D7 /* [CP] Check Pods Manifest.lock */,
 				6B7193E21E444F6900BFE4C3 /* Sources */,
 				6B7193E31E444F6900BFE4C3 /* Frameworks */,
 				6B7193E41E444F6900BFE4C3 /* Resources */,
+				48E40E7FD6416534E302130A /* [CP] Embed Pods Frameworks */,
+				5139D85131C40E14BF618D2B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +303,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1311FA87D106F25834888ABE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixpanelDemo/Pods-MixpanelDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B8E7545F0D4A5A878815194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		222DB4A55C8B340D16B82C60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixpanelDemo/Pods-MixpanelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EF4EBA62DA920976B7061C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixpanelDemoTests/Pods-MixpanelDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E40E7FD6416534E302130A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixpanelDemoUITests/Pods-MixpanelDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5139D85131C40E14BF618D2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixpanelDemoUITests/Pods-MixpanelDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAFB0F096ADE420C314A27D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCCC2687D5269515E3F5BB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixpanelDemoTests/Pods-MixpanelDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EAF6BC7DE0A59C01DF75AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B7193C31E444F6700BFE4C3 /* Sources */ = {
@@ -409,12 +596,15 @@
 		};
 		6B7193F01E444F6900BFE4C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E86DCA35F8B7F0B7769E156 /* Pods-MixpanelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = QZNZDCDCM2;
 				INFOPLIST_FILE = MixpanelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Acellere.MixpanelDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppCoda.MixpanelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,12 +612,15 @@
 		};
 		6B7193F11E444F6900BFE4C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF7AEF1A38CC4EF681911CE /* Pods-MixpanelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = QZNZDCDCM2;
 				INFOPLIST_FILE = MixpanelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Acellere.MixpanelDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppCoda.MixpanelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,6 +628,7 @@
 		};
 		6B7193F31E444F6900BFE4C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7CA9F599E488117C7F5141 /* Pods-MixpanelDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -449,6 +643,7 @@
 		};
 		6B7193F41E444F6900BFE4C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168B6A85E1BD61BDA54253FB /* Pods-MixpanelDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -463,6 +658,7 @@
 		};
 		6B7193F61E444F6900BFE4C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7EAFF5C4D4F9FCF80BA757E /* Pods-MixpanelDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MixpanelDemoUITests/Info.plist;
@@ -476,6 +672,7 @@
 		};
 		6B7193F71E444F6900BFE4C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E97848D49A92AEE7F78883 /* Pods-MixpanelDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MixpanelDemoUITests/Info.plist;
@@ -506,6 +703,7 @@
 				6B7193F11E444F6900BFE4C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B7193F21E444F6900BFE4C3 /* Build configuration list for PBXNativeTarget "MixpanelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +712,7 @@
 				6B7193F41E444F6900BFE4C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B7193F51E444F6900BFE4C3 /* Build configuration list for PBXNativeTarget "MixpanelDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +721,7 @@
 				6B7193F71E444F6900BFE4C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
